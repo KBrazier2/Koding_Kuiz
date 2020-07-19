@@ -53,4 +53,5 @@ We were tasked with creating a quiz. The format is multiple choice, and it is ti
 - Created index / css
 - Homepage containing start and highscores
 - Gamepage containing questions and choices
-- 
+- Set up randomized question order
+- Choices logged properly as correct or incorrect
