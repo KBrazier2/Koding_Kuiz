@@ -56,3 +56,4 @@ We were tasked with creating a quiz. The format is multiple choice, and it is ti
 - Set up randomized question order
 - Choices logged properly as correct or incorrect
 - Created HUD
+- Created score submission page
