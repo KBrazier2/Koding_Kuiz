@@ -11,43 +11,43 @@ let availableQuestions = [];
 
 let questions = [
     {
-        question: "What is the answer to question number 1?!",
-        choice1: "choice",
-        choice2: "choice",
-        choice3: "choice",
-        choice4: "correct choice",
+        question: "What is not a Data Type?!",
+        choice1: "Number",
+        choice2: "String",
+        choice3: "Boolean",
+        choice4: "Sonic the Hedgehog",
         answer: 4
     },
     {
-        question: "What is the answer to question number 2?!",
-        choice1: "choice",
-        choice2: "correct choice",
-        choice3: "choice",
-        choice4: "choice",
+        question: "What allows a user to enter input by providing a text box?!",
+        choice1: "Soap Box",
+        choice2: "Prompt Box",
+        choice3: "Cardboard Box",
+        choice4: "Jack-in-the-Box",
         answer: 2
     },
     {
-        question: "What is the answer to question number 3?!",
-        choice1: "choice",
-        choice2: "correct choice",
-        choice3: "choice",
-        choice4: "choice",
+        question: "Which of the following is not a looping structure?!",
+        choice1: "For Loop",
+        choice2: "Loop-di-Loop",
+        choice3: "While Loop",
+        choice4: "Do-While Loops",
         answer: 2
     },
     {
-        question: "What is the answer to question number 4?!",
-        choice1: "choice",
-        choice2: "choice",
-        choice3: "correct choice",
-        choice4: "choice",
+        question: "What is not a boolean operator?!",
+        choice1: "&&",
+        choice2: "||",
+        choice3: "UwU",
+        choice4: "!",
         answer: 3
     },
     {
-        question: "What is the answer to question number 5?!",
-        choice1: "correct choice",
-        choice2: "choice",
-        choice3: "choice",
-        choice4: "choice",
+        question: "What is JavaScript?!",
+        choice1: "An Object based Programming language. It is client-side and server-side, and can be inserted into HTML pages",
+        choice2: "A movie outline written while consuming coffee",
+        choice3: "A coffee consumed while writing a movie outline",
+        choice4: "A Coffee Movie Outline",
         answer: 1
     },
 ]
