@@ -124,7 +124,7 @@ incrementScore = num => {
 var timeEl = document.querySelector(".time");
 var mainEl = document.getElementById("main");
 
-var secondsLeft = 100;
+var secondsLeft = 25;
 
 function setTime() {
   var timerInterval = setInterval(function() {
@@ -132,8 +132,8 @@ function setTime() {
     timeEl.textContent = secondsLeft;
 
     if(secondsLeft === 0) {
-      clearInterval(timerInterval);
-      sendMessage();
+        localStorage.setItem("mostRecentScore", score);
+        return window.location.assign("end.html");
     }
 
   }, 1000);
