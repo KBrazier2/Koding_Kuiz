@@ -101,6 +101,10 @@ choices.forEach(choice => {
         if (classToApply === "correct") {
             incrementScore(CORRECT_BONUS);
         }
+        else if (classToApply === "incorrect"){
+            secondsLeft = secondsLeft - 2;
+        }
+        
 
 
         selectedChoice.parentElement.classList.add(classToApply);
