@@ -60,3 +60,4 @@ We were tasked with creating a quiz. The format is multiple choice, and it is ti
 - Save high scores based on top 5 scores submitted
 - Post high scores on leaderboard
 - Created actual Questions
+- Created a timer
