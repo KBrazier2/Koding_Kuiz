@@ -48,7 +48,7 @@ https://kbrazier2.github.io/Koding_Kuiz/
 
 Code Quiz
 
-We were tasked with creating a quiz. The format is multiple choice, and it is timed. You will have x seconds to complete the quiz. A correct answer will award you 1 point, but an incorrect answer will award you 0 points AND it will reduce the timer by 5 seconds. When all questions are answered, or the timer reaches 0, the quiz is over.
+We were tasked with creating a quiz. The format is multiple choice, and it is timed. You will have 50 seconds to complete the quiz. A correct answer will award you 1 point, but an incorrect answer will award you 0 points AND it will reduce the timer by 5 seconds. When all questions are answered, or the timer reaches 0, the quiz is over.
 
 - Created index / css
 - Homepage containing start and highscores
@@ -60,4 +60,4 @@ We were tasked with creating a quiz. The format is multiple choice, and it is ti
 - Save high scores based on top 5 scores submitted
 - Post high scores on leaderboard
 - Created actual Questions
-- Created a timer
+- Created a timer with penalties

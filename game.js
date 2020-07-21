@@ -102,7 +102,7 @@ choices.forEach(choice => {
             incrementScore(CORRECT_BONUS);
         }
         else if (classToApply === "incorrect"){
-            secondsLeft = secondsLeft - 2;
+            secondsLeft = secondsLeft - 5;
         }
         
 
@@ -128,7 +128,7 @@ incrementScore = num => {
 var timeEl = document.querySelector(".time");
 var mainEl = document.getElementById("main");
 
-var secondsLeft = 25;
+var secondsLeft = 50;
 
 function setTime() {
   var timerInterval = setInterval(function() {
