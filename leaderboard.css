@@ -1,0 +1,12 @@
+#topPointList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+.top-point {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+.top-point:hover {
+    transform: scale(1.025);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Challenge - Play</title>
+    <link rel="stylesheet" href="application.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="display">
+                <div id="display-item">
+                    <p class="display-prefix">
+                        Timer
+                    </p>
+                    <h1 class="time" id="main">
+                        
+                    </h1>
+                </div>            
+            </div>
+            <div id="display">
+                <div id="display-item">
+                    <p class="display-prefix">
+                        Question
+                    </p>
+                    <h1 class="display-main-text" id="inquiryCounter">
+                        
+                    </h1>
+                </div>
+
+            <div id="display">
+                <div id="display-item">
+                    <p class="display-prefix">
+                        Points
+                    </p>
+                    <h1 class="display-main-text" id="point">
+                        0
+                    </h1>
+                </div>
+
+            </div>
+            </div>
+            <h2 id="inquiry">What is the answer to this question?!</h2>
+            <div class="option-container">
+                <p class="option-prefix">A</p>
+                <p class="option-text" data-number="1">Option 1</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">B</p>
+                <p class="option-text" data-number="2">Option 2</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">C</p>
+                <p class="option-text" data-number="3">Option 3</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">D</p>
+                <p class="option-text" data-number="4">Option 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

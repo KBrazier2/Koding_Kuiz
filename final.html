@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="application.css">
+</head>
+<body>
+    <div class="container">
+        <div id="final" class="flex-center flex-column">
+            <h1 id="finalPoint"></h1>
+            <form>
+                <input 
+                type="text" 
+                name="gamertag"
+                id="gamertag"
+                placeholder="gamertag"
+                >
+                <button 
+                type="submit" 
+                class="btn" 
+                id="savePointBtn"
+                onclick="saveTopPoint(event)"
+                disabled
+                >Save
+            </button>
+            </form>
+            <a class="btn" href="quiz.html">RECHALLENGE?!</a>
+            <a class="btn" href="index.html">GO HOME!</a>
+        </div>
+    </div>
+    <script src="final.js"></script>
+</body>
+</html>
